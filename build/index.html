@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Gulp Setup</title>
-  <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
-  <div class="container">
-    <h1>Gulp Setup</h1>
-    <p>By <a href="http://azemoh.com">Joshua Azemoh</a></p>
-  </div>
 
-  <script src="/js/person.js"></script>
+<head>
+    <title>PickupNinja.com | Play Pickup Ultimate</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <script type="text/javascript">
+    // function resizeFrame() {
+    //     document.getElementById("lostFrame").height = document.getElementById("lostFrame").contentWindow.document.body.scrollHeight + 30;
+    // }
+    </script>
+</head>
+
+<body>
+    <div id="topBar">
+        <ul>
+            <li><a href="call-game.php" class="white">Call a game</a></li>
+            <li><a href="new-user.php" class="white">Create new user</a></li>
+            <li><a href="contact.php" class="white">Contact admin</a></li>
+            <li><a href="links.php" class="white">Links</a></li>
+        </ul>
+    </div>
+    <div id="content">
+        <h1>Play Pickup Ultimate</h1> Logged in as Jtm-sea - <a href="logout.php">Log out</a>
+        <h3>Current Games:</h3>
+        <table cellpadding="0" cellspacing="0" id="gamelist">
+        </table>
+        <h3>Facebook</h3> I created a <a href="http://www.facebook.com/home.php?sk=group_160394100651160&ap=1">Facebook Group</a> for Microsoft ultimate related communications.
+        <h3>Lost and Found:</h3>
+        <!--    <iframe src="lostandfound.php" width="100%" name="lostFrame" id="lostFrame" border="0" marginwidth="0" marginheight="0" frameborder="0" onload="resizeFrame()"></iframe> -->
+    </div>
 </body>
+
 </html>
